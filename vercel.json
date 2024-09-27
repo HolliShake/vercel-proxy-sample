@@ -1,4 +1,7 @@
 {
+    "devCommand": "export NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve",
+    "buildCommand": "export NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service build",
+    "installCommand": "npm install --legacy-peer-deps",
     "rewrites": [
         {
             "source": "/api/(.*)",
