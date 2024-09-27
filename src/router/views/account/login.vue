@@ -117,7 +117,7 @@ export default {
   mounted() {
     api.get('/AcademicCalendar/all')
     .then((data) => {
-      /* eslint-enable no-console */
+      /* eslint-disable no-console */
       console.log(data.data)
     })
   },
