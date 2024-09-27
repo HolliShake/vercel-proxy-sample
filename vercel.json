@@ -4,6 +4,10 @@
     "installCommand": "npm install --legacy-peer-deps",
     "rewrites": [
         {
+            "source": "/(.*)",
+            "destination": "/"
+        },
+        {
             "source": "/api/(.*)",
             "destination": "https://cqi.ustp.edu.ph/dev/Api/$1"
         }
