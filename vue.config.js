@@ -2,7 +2,7 @@ module.exports = {
   devServer: {
     proxy: {
       '/api': {
-        target: 'https://cqi.ustp.edu.ph/dev',
+        target: 'https://cqi.ustp.edu.ph/dev/Api',
         changeOrigin: true,
         pathRewrite: { '^/api': '/api' },
         ws: false
