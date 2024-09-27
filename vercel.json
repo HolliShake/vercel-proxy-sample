@@ -1,0 +1,8 @@
+{
+    "rewrites": [
+        {
+            "source": "/api/(.*)",
+            "destination": "https://cqi.ustp.edu.ph/dev/Api/$1"
+        }
+    ]
+}
