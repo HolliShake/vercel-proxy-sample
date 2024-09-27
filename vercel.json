@@ -8,8 +8,8 @@
             "destination": "/"
         },
         {
-            "source": "/api/(.*)",
-            "destination": "https://cqi.ustp.edu.ph/dev/Api/$1"
+            "source": "/Api/(.*)",
+            "destination": "https://cqi.ustp.edu.ph/dev/$1"
         }
     ]
 }

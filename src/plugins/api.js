@@ -2,7 +2,7 @@ const { default: axios } = require("axios");
 
 
 const api = axios.create({
-    baseURL: '/api',
+    baseURL: '/Api',
 })
 
 export default api;
